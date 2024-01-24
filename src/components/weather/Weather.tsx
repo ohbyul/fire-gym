@@ -1,4 +1,3 @@
-import { Tooltip } from 'flowbite-react';
 import moment from 'moment/moment';
 import React, { useEffect, useState } from 'react';
 
@@ -29,9 +28,8 @@ export const Weather = async () => {
                 width={30}
                 height={30}
             />
-            <div style={{ color: 'gray' }}>
+            <div className='text-white-50'>
                 {cityName} / {current?.temp_c}℃
-                {/* / {current?.condition.text} / {timeText} */}
             </div>
         </>
 

@@ -20,7 +20,7 @@ const Navbar = () => {
                     <a className="navbar-brand" href="#home">
                         <img
                             src="/images/logo/logo1.png"
-                            width={300}
+                            width={280}
                             alt=""
                         />
                         {/* <div className="img-fluid navbar-brand-sticky text-black">FIRE GYM</div> */}
@@ -46,7 +46,7 @@ const Navbar = () => {
                                 className="btn btn-danger text-white btn-sm btn-hover-text"
                             >
                                 <span className="btn-hover-label label-default">Contact</span>
-                                <span className="btn-hover-label label-hover">연락</span>
+                                <span className="btn-hover-label label-hover">상담신청</span>
                             </a>
                         </div>
                     </div>
