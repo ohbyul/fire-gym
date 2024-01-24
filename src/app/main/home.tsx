@@ -11,7 +11,7 @@ export default function Home() {
             {/*Parallax background*/}
             <img
                 src="/images/zone/workoutzone.jpg"
-                className="bg-image opacity-50"
+                className="bg-image opacity-25"
                 alt=""
             />
             {/*Connected line*/}
