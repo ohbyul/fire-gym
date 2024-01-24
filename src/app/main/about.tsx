@@ -38,7 +38,7 @@ export default function About() {
             {
                 abouts.map((item, index) => {
                     return (
-                        <div className="container-fluid py-9 py-lg-12 z-1">
+                        <div className="container-fluid py-9 py-lg-12 z-1" key={index}>
                             <div className="row align-items-center justify-content-between">
                                 {/* 소개글 */}
                                 <ExplainBox item={item} />
