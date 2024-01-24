@@ -17,7 +17,7 @@ export default function Footer() {
                             <FooterCopyright by="FRIE GYM" year={2023} style={{ color: 'gray', marginInline: '10px' }} />
 
                         </div>
-                        <div className="d-flex mb-3 mb-md-0 col-sm-6 col-md-4" >
+                        <div className="d-flex mb-3 mb-md-0 col-sm-6 col-md-2" >
                             <Weather />
                         </div>
 
