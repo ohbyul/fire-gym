@@ -12,9 +12,9 @@ export default function Footer() {
                 <div className="container">
                     <div className="row justify-content-md-between align-items-center">
                         <div className="d-flex mb-3 mb-md-0 col-sm-6 col-md-4">
-                            <FooterIcon href="https://byul91oh.tistory.com/" icon={SiTistory} style={{ marginInline: '10px' }} />
-                            <FooterIcon href="https://github.com/ohbyul" icon={BsGithub} style={{ marginInline: '10px' }} />
-                            <FooterCopyright by="byeol.oh" year={2024} style={{ color: 'gray', marginInline: '10px' }} />
+                            {/* <FooterIcon href="https://byul91oh.tistory.com/" icon={} style={{ marginInline: '10px' }} /> */}
+                            {/* <FooterIcon href="https://github.com/ohbyul" icon={BsGithub} style={{ marginInline: '10px' }} /> */}
+                            <FooterCopyright by="FRIE GYM" year={2023} style={{ color: 'gray', marginInline: '10px' }} />
 
                         </div>
                         <div className="d-flex mb-3 mb-md-0 col-sm-6 col-md-4" >

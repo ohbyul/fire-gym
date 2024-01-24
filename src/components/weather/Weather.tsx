@@ -30,7 +30,8 @@ export const Weather = async () => {
                 height={30}
             />
             <div style={{ color: 'gray' }}>
-                {cityName} / {current?.temp_c}℃ / {current?.condition.text} / {timeText}
+                {cityName} / {current?.temp_c}℃
+                {/* / {current?.condition.text} / {timeText} */}
             </div>
         </>
 

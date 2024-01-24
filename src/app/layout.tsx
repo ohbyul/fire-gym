@@ -12,8 +12,8 @@ import Script from 'next/script'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'B:PORTFOLIO',
-  description: '오별 포트폴리오',
+  title: 'FIRE GYM',
+  description: '파이어짐',
 }
 
 export default function RootLayout({

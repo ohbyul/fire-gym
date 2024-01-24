@@ -2,7 +2,7 @@
 import { getCareerCalc } from '@/utiles/dateTime';
 
 export default function Home() {
-    const strings = '{ "strings": ["오별", "OH BYEOL"] }'
+    const strings = '{ "strings": ["파이어짐", "FIRE GYM"] }'
     const career = getCareerCalc('2021-03-22')
     return (
         <section
@@ -10,7 +10,7 @@ export default function Home() {
             id="home">
             {/*Parallax background*/}
             <img
-                src="https://images.unsplash.com/photo-1618890334461-c33a04c4c916?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="/images/zone/workoutzone.jpg"
                 className="bg-image opacity-50"
                 alt=""
             />
@@ -22,14 +22,14 @@ export default function Home() {
                 <div className="row vh-100 d-flex align-items-center justify-content-center text-center">
                     <div className="col-xl-11">
                         <h2 className="mb-5 display-3">
-                            안녕하세요 프로그래머 <br className="d-none d-md-block" />
+                            안녕하세요 프리미엄 피트니스 <br className="d-none d-md-block" />
                             <span
-                                className="d-inline-block text-warning"
+                                className="d-inline-block text-danger"
                                 data-typed={strings}
-                            />입니다
+                            />입니다.
                         </h2>
                         <p className="mb-6 lead">
-                            {career} YEAR&#39;S FULL STACK DEVELOPER
+                            Premium Fitness
                         </p>
                     </div>
                 </div>

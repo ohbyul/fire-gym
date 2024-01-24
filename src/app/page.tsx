@@ -19,12 +19,12 @@ export default function Page() {
             <Navbar />
             <main>
                 <Home />
-                <About />
-                <Skills />
-                <Career />
+                {/* <About /> */}
+                {/* <Skills /> */}
+                {/* <Career /> */}
                 {/* <Project /> */}
                 {/* <Contact /> */}
-                <Introduce />
+                {/* <Introduce /> */}
             </main>
             <Footer />
             <a href="#" className="toTop">
