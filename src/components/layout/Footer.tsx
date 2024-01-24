@@ -17,6 +17,8 @@ export default function Footer() {
                                 < br />
                                 이메일 : firegym1@naver.com
                                 < br />
+                                대표 : 유수종 고성훈
+                                < br />
                                 < br />
                                 Copyright© 2023 Fire GYM FITNESS. All rights reserved.
                             </div>
