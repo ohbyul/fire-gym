@@ -19,7 +19,7 @@ export default function Page() {
             <Navbar />
             <main>
                 <Home />
-                {/* <About /> */}
+                <About />
                 {/* <Skills /> */}
                 {/* <Career /> */}
                 {/* <Project /> */}

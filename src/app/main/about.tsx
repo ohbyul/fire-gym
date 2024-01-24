@@ -1,20 +1,13 @@
 export default function About() {
 
-    const abouts = [{
-        title: 'About me',
-        contents: ['Full Stack 개발자']
-    }, {
-        title: 'My Career',
-        contents: ['(주)씨이랩 (2021.03.22~2022.07.31)', '어반데이터랩 (2022.08.01 ~ 재직중)',]
-    },
-    {
-        title: 'Participaint Projects',
-        contents: ['X-labeller', 'X-aiva', '대구 AI 국민안전', 'AI 3호전 detecting', 'CODIPAI', 'Autism Project', 'Dtverse']
-    },
-        // {
-        // title: 'Certificates',
-        // contents: ['정보처리기사', '빅데이터분석기사', 'ADsP', 'SQLD']
-        // }
+    const abouts = [
+        {
+            title: '1호점',
+            contents: ['천호점']
+        }, {
+            title: '위치',
+            contents: ['서울 강동구 올림픽로 664 B1층 5호,6호,10호',]
+        },
     ]
     return (
         <section id="about" className="position-relative ">
@@ -23,14 +16,14 @@ export default function About() {
                     <div className="order-last col-lg-5 me-lg-auto col-xl-4">
                         {/*Subheading*/}
                         <div className="mb-3" data-aos="fade-up">
-                            <span className="h6 text-body-secondary">Who I Am</span>
+                            <span className="h6 text-body-secondary">Fire!</span>
                         </div>
                         {/*Section Heading*/}
                         <h2
                             className="mb-7 display-5 position-relative z-1"
                             data-aos="fade-right"
                         >
-                            프로그래머 오별입니다.
+                            운동은 말입니다.
                         </h2>
                         {abouts.map((about, i) => (
                             <div className="position-relative z-1" key={i}>
